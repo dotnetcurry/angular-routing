@@ -1,0 +1,24 @@
+{
+    "destinations": [
+        {
+            "name": "hyderabad",
+            "country": "India",
+            "bestTime": "all time"
+        },
+        {
+            "name": "agra",
+            "country": "India",
+            "bestTime": "all time"
+        },
+        {
+            "name": "New York",
+            "country": "USA",
+            "bestTime": "summer"
+        },
+        {
+            "name": "London",
+            "country": "UK",
+            "bestTime": "summer"
+        }
+    ]
+}

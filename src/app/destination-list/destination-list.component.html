@@ -1,0 +1,11 @@
+<div>
+  <strong>Places To Visit</strong>
+  <hr />
+  <div *ngFor="let dest of destinationList | async">
+    <a [routerLink]="['/destination', dest.name]"> <strong>{{dest.name}}</strong></a>
+    <div>
+      <span>{{dest.country}}</span> | <span>{{dest.bestTime}}</span>
+    </div>
+    <br />
+  </div>
+</div>
